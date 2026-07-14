@@ -1,0 +1,29 @@
+.item-image {
+    width: 30%;
+    height: 140px;
+    border-radius: 4px;
+}
+.item-card{
+     background-color:rgb(210, 181, 165);
+     border-radius: 10px;
+    padding:12px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.item-container{
+    max-width: calc(100% - 40px);
+    padding : 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(224px,1fr));
+    column-gap:10px;
+    row-gap: 10px;
+}
+.btn{
+    width: 40%;
+    height: 30px;
+    border-radius:  16px;
+    border-color: white;
+    background-color:rgb(210, 181, 165); 
+}

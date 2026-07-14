@@ -1,0 +1,45 @@
+.item-card{
+    border-radius: 35px;
+   background-color:rgb(210, 181, 165); 
+    padding:12px;
+    width:calc(100% - 24px);
+    display: flex;
+    flex-direction: column;
+   
+    
+   
+}
+item-image{
+    width: 10p;
+    height: 140px;
+    border-radius: 4px;
+}
+#item-container{
+    max-width: calc(100%- 40px);
+    padding : 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(224px,1fr));
+    column-gap:10px;
+    row-gap: 10px;
+    
+}
+.btn-top{
+    width: 70px;
+    border-radius: 12px;
+    border: none;
+    
+
+}
+.btn-bottom{
+    background-color: rgb(105, 88, 81);
+    color:white;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+ 
+
+}
+.price-btn{
+    display: flex;
+    justify-content: space-between;
+}

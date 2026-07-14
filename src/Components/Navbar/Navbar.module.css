@@ -1,0 +1,35 @@
+nav{
+
+    height: 100px;
+    background-color: rgb(234, 205, 189);
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+.search-icon{
+    height: 30px;
+    margin-top: 0px;
+}
+.logo{
+height: 100px;
+}x
+.links{
+    display: flex;
+    gap: 10px;
+
+}
+.navContent{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.link{
+    text-decoration: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  
+
+}
+.g{
+    display: flex;
+}
