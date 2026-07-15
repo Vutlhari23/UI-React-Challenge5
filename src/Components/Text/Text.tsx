@@ -1,14 +1,16 @@
 import React from 'react'
 
+
 type TextProps ={
  
     variant ?: string,
     children : React.ReactNode,
-    style?: React.CSSProperties
+    style?: React.CSSProperties,
+    className?:string
 
 }
 
-export const Text = ({variant,children,style}: TextProps) =>{
+export const Text = ({variant,children,style,className}: TextProps) =>{
     if(variant==='h1') return <h1  style={style}>{children}</h1>
     if(variant==='h2') return <h2 style={style}>{children}</h2>
     if(variant==='h3') return <h3 style={style}>{children}</h3>
@@ -21,7 +23,7 @@ export const Text = ({variant,children,style}: TextProps) =>{
 
     return (
 
-        <div style={style} >
+        <div style={style} className={className} >
             {children}
         </div>
     )

@@ -5,17 +5,19 @@ nav{
     top: 0;
     width: 100%;
     position: fixed;
+   
 }
 .search-icon{
     height: 30px;
     margin-top: 0px;
 }
 .logo{
-height: 100px;
+height: 110px;
 }x
 .links{
     display: flex;
     gap: 10px;
+     color: rgb(41, 17, 7);
 
 }
 .navContent{
@@ -27,6 +29,7 @@ height: 100px;
     text-decoration: none;
     padding: 5px 10px;
     cursor: pointer;
+     color: rgb(41, 17, 7);
   
 
 }

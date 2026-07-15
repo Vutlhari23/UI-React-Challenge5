@@ -14,8 +14,8 @@ export const ItemCard = ({name,imgLink,description}: ItemProps) => {
   return (
    <article className={styles['item-card']} >
     <img  className={styles['blog-image']} src={imgLink}/>
-    <Text variant='h3'>{name}</Text>
-    <Text variant='p'>{description}</Text>
+    <Text variant='' className={styles.cos}>{name}</Text>
+    <Text variant={"span"}>{description}</Text>
     <button className={styles.btn} >View more</button>
     
    </article>

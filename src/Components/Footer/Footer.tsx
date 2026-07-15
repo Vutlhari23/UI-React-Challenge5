@@ -9,6 +9,7 @@ export const Footer = () => {
       <ContentContainer className={styles.footer}>
         <Table/>
        
+       <ContentContainer className={styles.list}>
         <ul>
             <li>Data Settings</li>
             <li>Cookie Settings</li>
@@ -17,6 +18,7 @@ export const Footer = () => {
             <li>Imprint</li>
 
         </ul>
+        </ContentContainer>
      
       </ContentContainer>
 
