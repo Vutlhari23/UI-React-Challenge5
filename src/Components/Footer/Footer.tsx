@@ -1,26 +1,41 @@
 import React from 'react'
 import styles from './Footer.module.css'
-import ContentContainer from '../ContentContainer/ContentContainer'
-import {Table} from '../Table/Table'
 export const Footer = () => {
   return (
    <footer>
 
-      <ContentContainer className={styles.footer}>
-        <Table/>
-       
-       <ContentContainer className={styles.list}>
-        <ul>
-            <li>Data Settings</li>
-            <li>Cookie Settings</li>
-            <li>Privacy Policy</li>
-            <li>Terms and Conditions</li>
-            <li>Imprint</li>
+      
+        <div className={styles.procucts}>
+        <h3>Products</h3>
+        <a>Shoes</a>
+    </div>
 
-        </ul>
-        </ContentContainer>
-     
-      </ContentContainer>
+    <div className={styles.category}>
+        <h3>Category</h3>
+        <a>Men</a>
+        <a>New In</a>
+        <a>Weekly Pick</a>
+
+    </div>
+
+    <div className={styles.company}>
+        <h3>Company Info</h3>
+
+         <a>About us</a>
+        <a>Contact us</a>
+        <a>Payment Options</a>
+        <a>Track Order</a>
+        <a>Support</a>
+        <a>Vouchers</a>
+        <a>Size charts</a>
+    </div>
+
+    <div className={styles.social}>
+      <h3>Follow us</h3>
+      <a>Instagram</a>
+        <a>Facebook</a>
+        <a>Youtube</a>
+    </div>
 
    </footer>
   )

@@ -9,7 +9,7 @@ import "bootstrap-icons/font/bootstrap-icons.css"
 export const Table = () => {
   return (
     <>
-    <ContentContainer className={styles.items}>
+    <ContentContainer className={styles['footer-table']}>
      <table>
         <tr>
             <th>Products</th>

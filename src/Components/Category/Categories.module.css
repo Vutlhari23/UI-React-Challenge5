@@ -20,6 +20,7 @@
      padding: 20px;
     
      border-radius: 40px;
+     grid-template-columns: repeat(auto-fit,minmax(224px,1fr));
      
 
 }
@@ -46,23 +47,22 @@
     width: 45px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 768px){
 .divs-container{
     display: block;
-
-
-   
     align-items: center;
     justify-content: center;
     width:100%;
     margin-left: 40px;
-    
-
+    grid-template-columns: repeat(auto-fit,minmax(224px,1fr));
 }
-
 .MainContainer{
  height: 1000px;
  width: 100%;
+}
+.item-one, .item-two,.item-three{
 
+    width:100%;
+    margin-right: 100px;
 }
 }
