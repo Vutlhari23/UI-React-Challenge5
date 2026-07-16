@@ -36,9 +36,7 @@ export const Table = () => {
             <td></td>
             <td>Weekly Pick</td>
             <td>Payment Options</td>
-            <td><i className="bi bi-youtube"
-            
-            style={{fontSize: "1.5rem", color:"rgb(234,205,189"}}></i></td>
+            <td><i className="bi bi-youtube" style={{fontSize: "1.5rem", color:"rgb(234,205,189"}}></i></td>
         </tr>
 
         <tr>
