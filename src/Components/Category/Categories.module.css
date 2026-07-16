@@ -46,18 +46,21 @@
     align-items: center;
     justify-content: center;
     
+    
 }
 .line{
     width: 45px;
-    border: 2px solid white;
+   
 }
 
 @media screen and (max-width: 768px){
+
 .divs-container{
     display: block;
     align-items: center;
+    width:100%;
     justify-content: center;
-    width:70;
+    background-color:  rgb(234, 205, 189);
     margin-right: 10px;
     grid-template-columns: repeat(auto-fit,minmax(224px,1fr));
     padding: 30px;
@@ -72,7 +75,7 @@
  .item-two,
  .item-three{
 
-    width:100%;
+ width:100%;
    margin:0;
    box-sizing:border-box;
     

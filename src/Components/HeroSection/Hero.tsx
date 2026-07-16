@@ -1,7 +1,7 @@
 import React from 'react'
 import ContentContainer from '../ContentContainer/ContentContainer'
 import styles from './Hero.module.css'
-import hero from '../../assets/caramel-shake.png'
+import hero from '../../assets/fullNavImage.png'
 import {Text} from '../Text/Text'
 
 export const Hero = () => {
