@@ -1,16 +1,66 @@
-.coffee-image{
-    width: 100%;
-    height: 50%;
-}
-.image{
-    width: 100%;
-    height:100%;
-   
-}
-
-
-.hero img{
+.heroSection{
+    position: relative;
+    min-height:  100vh;
     width:100%;
-    border-bottom-left-radius:50% 15%;
-    border-bottom-right-radius:50% 15%;
+    background: linear-gradient(60deg, rgba(84,58,183,1)0%,rgba(0,172,193,0)100%);
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-image: url('../../assets/Hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+
+.bottom-waves{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+    overflow: hidden;
+    line-height: 0;
+      display: block;
+    width: calc(100% - 1.3px);
+    height: px;
+    transform: rotate(180deg);
+
+}
+
+.top-waves{
+
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+     width: calc(120% + 2.0px);
+    height: 160px;
+}
+
+.hero-content{
+    margin-top: 300px;
+    margin-left: 20px;
+    padding-top:40px;
+    font-size: 36px;
+    line-height: 25px;
+    
+}
+.btn{
+    height:50px;
+    width: 150px;
+    border-radius: 35px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.coffee-text{
+    color:  rgb(234, 205, 189);
+    
+}
+.fresh-text{
+    font-weight: 1px;
+    
 }

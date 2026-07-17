@@ -21,7 +21,7 @@ import BlogsContainer from './Components/Card/BlogsContainer'
 import Categories from './Components/Category/Categories'
 import MilkshakeStock from './Components/MilkshakeCard/MilkshakeStock'
 import Footer from './Components/Footer/Footer'
-import Hero from './Components/HeroSection/Hero'
+import {Hero} from './Components/HeroSection/Hero'
 
 
 function App() {
@@ -49,45 +49,19 @@ function App() {
      <div id='app-container'>
         <div id='scrollable'>
           <Navbar/>
-          <div>
-            <Hero/>
-          </div>
-           <div id='milkshakesText'>
-            
-            <Categories/>
-             <Text variant='h2'>TOP MILK SHAKES</Text>
-              <Text variant='p'>Explore The Recent Most Bought Shakes This Week</Text>
-            <MilkshakeStock  milkshakes={milkshake}/>
-
-           </div>
-           
-           <div>
-              <Text variant='h2'>LATEST BLOGS</Text>
-              <Text variant='p'>Explore The Recent Most Bought Shakes This Week</Text>
-            <BlogsContainer blogs={blog}/>
-            </div>
-          
         </div>
-        <Footer/>
-       
+        
+        <Hero/>
+        <Categories/>
+        <div>
+        <Text variant='h2' >TOP CATEGORIES</Text>
+       <Text variant='p' >Explore The Recent Most Bought Shakes This Week</Text>
+        <MilkshakeStock milkshakes={milkshake}/>
+        <BlogsContainer  blogs={blog}/>
+        </div>
+        
 
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     </>
   )
 }

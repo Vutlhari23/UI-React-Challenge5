@@ -6,8 +6,8 @@ export const Categories = () => {
   return (
    <ContentContainer className={styles.MainContainer}>
       
-      <Text variant='h2'>TOP CATEGORIES</Text>
-       <Text variant='p'>Explore The Recent Most Bought Shakes This Week</Text>
+      <Text variant='h2' className={styles['text']}>TOP CATEGORIES</Text>
+       <Text variant='p' className={styles['text']}>Explore The Recent Most Bought Shakes This Week</Text>
 
        <ContentContainer className={styles['divs-container']}>
       <ContentContainer className={styles['item-one']}>
