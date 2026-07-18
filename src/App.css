@@ -1,0 +1,18 @@
+#app-container{
+    min-height: calc(100vh-100px);
+    position:absolute;
+    width: 100vw;
+    padding-bottom:100px;
+    left:0;
+    font-family: 'Poppins', sans-serif;
+    background-color:  rgb(234, 205, 189);
+    overflow: hidden;
+
+}
+#scrollable{
+    padding-top:60px;
+    
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
