@@ -48,7 +48,7 @@ ul{
     
 }
 li{
-     display: inline;
+    display: inline;
     list-style: none;
     padding: 20px;
     background-color:rgb(127, 100, 89);
@@ -62,42 +62,46 @@ li{
 
 
 @media screen and (max-width: 768px){ 
-    footer{
-        min-height: auto;
-    }
 
-.products,
+footer{
+min-height: 90vh;
+}
+
+ .products,
 .category,
 .social,
 .company{
-    min-width:100vh;
-    display:block;
-    margin: auto;
-  
-}
-.link{
-    display: block;
-}
-   
-li{
-    background-color:rgb(127, 100, 89);
-}    
+    min-width:100%;
+    align-items: center;
 
-ul{
-     list-style-type: none;
 }
+.content-container{
+
+display: block;
+height: 100%;
+width:40%;
+line-height: 24px;
+
+}
+.main-container{
+    display: block;
+    min-height:1000px;
+    
+    
+
+}
+
 
 .list{
     margin: auto;
     background-color:rgb(127, 100, 89);
-     width: 20rem;
-    align-content: center;
-
+    width: 15rem;
+    line-height: 5px;
+    
+}
+li{
+    display: block;
 }
 
-.products{
-    border-top: 2px solid  white;
-    width: 10rem;
-}
 
 }
