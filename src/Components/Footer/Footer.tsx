@@ -6,9 +6,9 @@ import ContentContainer from '../ContentContainer/ContentContainer'
 export const Footer = () => {
   return (
    <footer>
-
+    <ContentContainer className={styles['main-container']}>
       <ContentContainer className={styles['content-container']}>
-        <div className={styles.procucts}>
+        <div className={styles.products}>
         <h3>Products</h3>
         <a className={styles.link}>Shoes</a>
     </div>
@@ -50,6 +50,7 @@ export const Footer = () => {
             <li>Imprint</li>
 
         </ul>
+    </ContentContainer>
     </ContentContainer>
 
    </footer>

@@ -54,12 +54,12 @@ function App() {
         <Hero/>
         <Categories/>
         <div>
-        <Text variant='h2' >TOP CATEGORIES</Text>
+        <Text variant='h2' >TOPS CATEGORIES</Text>
        <Text variant='p' >Explore The Recent Most Bought Shakes This Week</Text>
         <MilkshakeStock milkshakes={milkshake}/>
         <BlogsContainer  blogs={blog}/>
         </div>
-        
+        <Footer/>
 
     </div>
     </>
