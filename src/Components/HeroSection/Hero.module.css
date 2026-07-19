@@ -1,6 +1,6 @@
 .heroSection{
     position: relative;
-    min-height:  100vh;
+    min-height:  650PX;
     width:100%;
     background: linear-gradient(60deg, rgba(84,58,183,1)0%,rgba(0,172,193,0)100%);
     margin: 0%;
@@ -15,7 +15,6 @@
 
 }
 
-
 .bottom-waves{
     position: absolute;
     bottom: 0;
@@ -23,7 +22,7 @@
    
     overflow: hidden;
     line-height: 0;
-      display: block;
+    display: block;
     width: calc(100% - 1.3px);
     height: px;
     transform: rotate(180deg);
@@ -38,12 +37,12 @@
     width: 100%;
     overflow: hidden;
     line-height: 0;
-     width: calc(120% + 2.0px);
-    height: 200px;
+     width: calc(100% + 1.3px);
+    height: 150px;
 }
 
 .hero-content{
-    margin-top: 300px;
+    margin-top: 150px;
     margin-left: 20px;
     padding-top:40px;
     font-size: 36px;

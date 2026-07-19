@@ -1,6 +1,6 @@
 nav{
 
-    height: 12%;
+    height: 15%;
     background-color: rgb(234, 205, 189);
     top: 0;
     width: 100%;
@@ -17,7 +17,7 @@ nav{
    
 }
 .search-icon{
-    height: 50px;
+    height: 30px;
     width: 70px;
     margin-top: 0px;
 }
@@ -36,12 +36,14 @@ margin-bottom: 30px;
     align-items: center;
     justify-content: space-between;
     display: flex;
+    margin-bottom: 30px;
 }
 .link{
     text-decoration: none;
     padding: 5px 10px;
     cursor: pointer;
     color: rgb(41, 17, 7);
+    
   
 
 }
@@ -50,13 +52,15 @@ margin-bottom: 30px;
   flex-direction: column;
   justify-content: space-between;
   width: 50px;
-  height: 60px;
+  height: 40px;
   border: none;
   cursor: pointer;
   background-color: rgb(234, 205, 189);
+  margin-right: 50px;
+  margin-bottom: 40px;
 }
 .bar {
-  height: 12px;
+  height: 7px;
    width: 100%;
   background-color: #403030; 
   transition: all 0.3s ease;
@@ -105,5 +109,4 @@ margin-bottom: 30px;
   pointer-events: auto; 
   cursor: pointer;
 }
-
 }

@@ -23,6 +23,7 @@ import MilkshakeStock from './Components/MilkshakeCard/MilkshakeStock'
 import Footer from './Components/Footer/Footer'
 import {Hero} from './Components/HeroSection/Hero'
 import MilkshakeItem from './Components/MilkshakeCard/MilkshakeItem'
+import styles from './Components/Text/Text.module.css'
 
 
 function App() {
@@ -59,7 +60,7 @@ function App() {
 
       <MilkshakeStock milkshakes={milkshake}/>
         
-      <Text variant='h2'>LATEST VLOGS</Text>  
+      <Text variant='h2' className={styles.big}>LATEST BLOGS</Text>  
       <Text variant='p'>Explore The Recent Most Bought Shakes This Week</Text>
       
       <BlogsContainer blogs={blog}/>
