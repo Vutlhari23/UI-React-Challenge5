@@ -7,16 +7,16 @@
     font-family: 'Poppins', sans-serif;
     background-color:  rgb(234, 205, 189);
     overflow: hidden;
-
+    border: none;
     justify-content: center;
+    text-align: center;
     align-items: center;
 }
 #scrollable{
     padding-top:80px;
     
-   text-align: center;
-  
+   
 }
-.big{
-    text-align: center;
+body{
+    overflow-x: hidden;
 }

@@ -9,7 +9,7 @@ export const Hero = () => {
     
     <div className={styles.heroSection}>
 
-       <svg
+      <svg
       className={styles['top-waves']}
       viewBox="0 0 1200 120"
       preserveAspectRatio="none"

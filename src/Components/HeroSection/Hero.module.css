@@ -3,14 +3,13 @@
     min-height:  650PX;
     width:100%;
     background: linear-gradient(60deg, rgba(84,58,183,1)0%,rgba(0,172,193,0)100%);
-    margin: 0%;
-    padding: 0%;
+    
     overflow: hidden;
     background-image: url('hero.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
+    border:none;
     margin:0;
 
 }
@@ -19,7 +18,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-   
+
     overflow: hidden;
     line-height: 0;
     display: block;
@@ -43,24 +42,42 @@
 
 .hero-content{
     margin-top: 150px;
-    margin-left: 20px;
+    
     padding-top:40px;
     font-size: 36px;
-    line-height: 25px;
+    line-height: 10px;
+   
+    width: 380px;
+    margin-left:0;
     
 }
 .btn{
-    height:50px;
+    height:40px;
     width: 150px;
     border-radius: 35px;
     font-size: 15px;
     font-weight: 600;
+    margin: 0px;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background-color: #f8ca9a;
+   
 }
 .coffee-text{
     color:  rgb(234, 205, 189);
     
 }
 .fresh-text{
-    font-weight: 1px;
+    font-size:30px; 
+    font-weight:1;
     
+    
+}
+@media screen and (max-width: 768px){
+.hero-content{
+    width:30px;
+    border: red;
+    line-height: 25px;
+}
 }

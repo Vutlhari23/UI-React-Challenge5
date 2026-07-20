@@ -22,7 +22,7 @@
     justify-content: center;
     color: white;
     padding: 20px;
-    
+    transform: translateY(-8px);
      border-radius: 40px;
      grid-template-columns: repeat(auto-fit,minmax(224px,1fr));
      
@@ -61,7 +61,7 @@
 .divs-container{
     display: block;
     align-items: center;
-    width:100%;
+    width:90%;
     justify-content: center;
     background-color:  rgb(234, 205, 189);
     margin-right: 10px;
@@ -81,7 +81,7 @@
  width:100%;
    margin:0;
    box-sizing:border-box;
-    
+    transform: translateY(-25px);
 }
 
 }
