@@ -25,6 +25,7 @@
     width: calc(100% - 1.3px);
     height: px;
     transform: rotate(180deg);
+    border: none;
 
 }
 
@@ -38,6 +39,7 @@
     line-height: 0;
      width: calc(100% + 1.3px);
     height: 150px;
+    border: none;
 }
 
 .hero-content{
@@ -59,6 +61,7 @@
     font-weight: 600;
     margin: 0px;
     transition: all 0.3s ease;
+   
 }
 .btn:hover{
     background-color: #f8ca9a;

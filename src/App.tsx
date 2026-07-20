@@ -55,7 +55,7 @@ function App() {
         <Hero/>
         <Categories/>
 
-       <Text variant='h2' >TOP CATEGORIES</Text>
+       <Text variant='h2' >TOP MILK SHAKES</Text>
        <Text variant='p' >Explore The Recent Most Bought Shakes This Week</Text>
 
       <MilkshakeStock milkshakes={milkshake}/>
